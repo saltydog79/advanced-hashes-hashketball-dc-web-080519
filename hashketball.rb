@@ -4,14 +4,18 @@ home = {
   :team_name
   # ... string of team name
   :colors = []
-  :players
+  :players = [
+      :hash = {}
+  ]
 }
 
 away = {
   :team_name " "
   # ... string of team name
   :colors = []
-  :players
+  :players = [
+      :hash = {}
+  ]
 }
 end
 
