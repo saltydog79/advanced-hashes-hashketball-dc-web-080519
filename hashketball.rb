@@ -2,14 +2,15 @@
 def game_hash
 home = {
   :team_name
-  :colors
+  # ... string of team name
+  :colors = []
   :players
 }
 
 away = {
   :team_name " "
   # ... string of team name
-  :colors
+  :colors = []
   :players
 }
 end
